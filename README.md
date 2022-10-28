@@ -1,4 +1,4 @@
-#Simple Laravel Blog for BIT Students
+<h1>Simple Laravel Blog for BIT Students</h1>
 
 App contains seeders for both admin users and posts generation.
 Copy and rename file '.env.example' to '.env' and setup your application configuration.
@@ -15,7 +15,7 @@ If running app in development mode you'll need to setup two separate terminals a
 
 Finally to launch main application run `php artisan serve` and open app with given localhost port.
 
-##Database seeder
+<h2>Database seeder</h2>
 
 If you want to seed database with automatically generated admin user run command:
 `php artisan db:seed`
