@@ -7,9 +7,9 @@ First run command  `composer install` in order to add dependencies.
 
 Command `npm install` will update nodejs module vendors.
 
-Run `php artisan passport:install` in order to generate authentification migrations and keys.
-
 `php artisan migrate` run laravel migrations 
+
+Run `php artisan passport:install --force` in order to generate authentification migrations and keys.
 
 If running app in development mode you'll need to setup two separate terminals and launch `npm run dev` for vite resource server.
 
