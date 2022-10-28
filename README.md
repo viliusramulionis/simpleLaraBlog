@@ -19,6 +19,8 @@ Finally to launch main application run `php artisan serve` and open app with giv
 
 If you want to seed database with automatically generated admin user run command:
 `php artisan db:seed`
+username: admin@bit.lt
+password: password
 
 When user is generated you'll have the ability to fill database with 10 automatically generated posts in each launch. 
 Run command `php artisan db:seed PostsSeeder` and voilà your all set.
